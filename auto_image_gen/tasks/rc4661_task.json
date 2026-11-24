@@ -1,0 +1,247 @@
+{
+  "task_id": "TASK_RC4661_GX10",
+  "passthrough_clean_white_sub_images": true,
+  "product_meta": {
+    "spu_code": "RC4661",
+    "brand_name": "RadioMaster",
+    "category": "RC_Transmitter",
+    "blacklisted_terms": ["GX10 MAX", "900MHz", "Sub-G 900M", "AG01"]
+  },
+  "generation_flags": {
+    "is_pre_listing_mode": false,
+    "generate_structure_diagram": true,
+    "generate_handheld_comparison": true,
+    "generate_russian_suite": true
+  },
+  "color_variants": [
+    {
+      "color_id": "GRY",
+      "color_name_cn": "银灰色",
+      "color_name_en": "Silver Grey",
+      "views": {
+        "front_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 1.jpg",
+        "back_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 2.jpg",
+        "angled_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 3.jpg",
+        "left_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 5.jpg",
+        "right_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 6.jpg",
+        "detail_1_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 8.jpg",
+        "detail_2_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 9.jpg"
+      }
+    },
+    {
+      "color_id": "CHA",
+      "color_name_cn": "半透明黑",
+      "color_name_en": "Transparent Charcoal Black",
+      "views": {
+        "front_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-透明/普-透明 1.jpg",
+        "back_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-透明/普-透明 2.jpg",
+        "angled_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-透明/普-透明 3.jpg",
+        "left_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-透明/普-透明 5.jpg",
+        "right_png": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-透明/普-透明 6.jpg"
+      }
+    }
+  ],
+  "base_skus": [
+    { "sku_code": "RC4661A", "color_id": "GRY", "version_badge": "FCC" },
+    { "sku_code": "RC4661B", "color_id": "GRY", "version_badge": "LBT" },
+    { "sku_code": "RC4661C", "color_id": "CHA", "version_badge": "FCC" },
+    { "sku_code": "RC4661D", "color_id": "CHA", "version_badge": "LBT" }
+  ],
+  "bundled_packages": [
+    {
+      "package_id": "STD",
+      "accessory_sku": null,
+      "accessory_title_en": null,
+      "accessory_cutout_png": null,
+      "append_ru_item": null
+    },
+    {
+      "package_id": "BAT_4226A",
+      "accessory_sku": "RC4226A",
+      "accessory_title_en": "18650 Lipo Battery",
+      "accessory_cutout_png": "E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC4226A.png",
+      "append_ru_item": "1 × Батарея 18650 (2 шт.)"
+    },
+    {
+      "package_id": "BAT_3473",
+      "accessory_sku": "RC3473",
+      "accessory_title_en": "RadioMaster 18650 3200mAh 3.7V",
+      "accessory_cutout_png": "E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC3473.png",
+      "append_ru_item": "1 × Батарея 18650 (2 шт.)"
+    }
+  ],
+  "copywriting_en": {
+    "main_title": "GX10 16CH Radio",
+    "candidate_titles": [
+      "GX10 16CH Transmitter",
+      "GX10 16CH Radio",
+      "GX10 Radio"
+    ],
+    "core_selling_points": [
+      "ELRS 2.4GHz",
+      "16CH",
+      "X4-V2 Hall Gimbal",
+      "2.8\" IPS Touch Screen"
+    ],
+    "package_includes": [
+      { "qty": 1, "name_en": "GX10 Radio Controller" },
+      { "qty": 1, "name_en": "GX10 Carry Case" },
+      { "qty": 1, "name_en": "Gimbal Protector" },
+      { "qty": 1, "name_en": "Replaceable Antenna" },
+      { "qty": 1, "name_en": "MMCX Removal Tool" },
+      { "qty": 1, "name_en": "Type-C Cable" },
+      { "qty": 1, "name_en": "Screen Protector" },
+      { "qty": 1, "name_en": "1.5mm Hex Wrench" },
+      { "qty": 2, "name_en": "Slider Delete Grommets" },
+      { "qty": 7, "name_en": "Switch Delete Grommets" },
+      { "qty": 1, "name_en": "RadioMaster Sticker Set" },
+      { "qty": 1, "name_en": "GX10 Manual" },
+      { "qty": 1, "name_en": "Inventory Card" }
+    ],
+    "specifications": [
+      { "key": "Item", "value": "GX10 Radio" },
+      { "key": "Color", "value": "Grey / Transparent Charcoal" },
+      { "key": "Dimensions", "value": "180 × 165 × 83 mm" },
+      { "key": "Weight", "value": "456g (excluding batteries)" },
+      { "key": "Frequency Range", "value": "2.4GHz ISM" },
+      { "key": "Internal RF", "value": "ELRS 2.4GHz" },
+      { "key": "Supported Protocols", "value": "Express-LRS" },
+      { "key": "Firmware", "value": "EdgeTX (requires 2.12.0 or later)" },
+      { "key": "Internal RF Firmware", "value": "ExpressLRS 3.6.3" },
+      { "key": "Cooling Fan", "value": "Yes (Built-in fan + aluminum heat sink)" },
+      { "key": "Built-in Flash", "value": "512MB (supports TF card up to 32GB FAT32)" },
+      { "key": "Channels", "value": "Up to 16 channels (receiver dependent)" },
+      { "key": "Display", "value": "2.8-inch IPS Touchscreen 320 × 240 Resolution" },
+      { "key": "Built-in Microphone", "value": "Yes" },
+      { "key": "Built-in Motion Sensor", "value": "Yes (SC7U22 Gyroscope)" },
+      { "key": "Operating Voltage", "value": "6.6 - 8.4V DC" },
+      { "key": "Battery Support", "value": "2 × 3.7V 18650 Li-ion batteries (not included)" },
+      { "key": "Connectivity", "value": "USB-C" },
+      { "key": "Gimbal", "value": "X4-V2 Hall Sensor Gimbals (M3 Stick Thread)" },
+      { "key": "Module Bay", "value": "Compatible with Nano module bay" },
+      { "key": "Upgrade Method", "value": "USB-C Online / UF2 Offline" }
+    ]
+  },
+  "copywriting_ru": {
+    "title": "GX10 Radio",
+    "subtitle_lines": [
+      "Встроенный сенсорный IPS-экран 2,8″",
+      "Поддержка EdgeTX и слот для карты TF",
+      "Подключение внешнего ВЧ-модуля"
+    ],
+    "badges_1": [
+      "16CH",
+      "ELRS",
+      "X4-V2 Hall",
+      "{badge}"
+    ],
+    "badges_2": [
+      "16CH",
+      "ELRS",
+      "2,8\" IPS сенсорный экран",
+      "X4-V2 Hall",
+      "{badge}"
+    ],
+    "badges_3": [
+      "ELRS",
+      "X4-V2 Hall",
+      "{badge}"
+    ],
+    "package_title": "Комплектация GX10",
+    "package_includes": [
+      "1 × Пульт GX10",
+      "1 × Сумка для GX10",
+      "1 × Защита для стиков GX10",
+      "1 × Запасная антенна",
+      "1 × Ключ для снятия антенны",
+      "1 × Кабель USB-C",
+      "1 × Защитная плёнка для экрана",
+      "1 × Шестигранный ключ 1,5 мм",
+      "2 × Мягкие заглушки для колёсиков",
+      "7 × Мягкие заглушки для кнопок",
+      "1 × Набор наклеек RadioMaster",
+      "1 × Инструкция GX10",
+      "1 × Карта комплектации"
+    ]
+  },
+  "reference_assets": {
+    "clean_package_photo_ref": "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 10.jpg",
+    "spec_output_filename": "详情图(8)_参数表.jpg",
+    "scene_configs": [
+      {
+        "output_filename": "详情图(1)_场景图.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 3.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的商品真实使用场景图。以输入的银灰色 GX10 斜侧面白底图为唯一商品素材，抠取原物并合成在画面左前景的现代碳纤维桌面工作台上（实际宽约 540–580 px，保持机身角度、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 锐利清晰）。遥控器顶部连接一根带科技蓝光效的 USB-C 数据线，通向画面右后方的一台游戏笔记本电脑，电脑屏幕上正显示第一人称 FPV 穿越机飞行模拟器画面。背景为暗调科技感桌面环境。顶部居中排白色粗体主标题「SINGLE USB TYPE-C PORT」（46–52 px），其下排浅蓝与白色副标题「Data Transmission  |  Charging  |  FPV Simulator」（24–26 px）。严禁出现中文。"
+      }
+    ],
+    "selling_point_configs": [
+      {
+        "output_filename": "详情图(2)_卖点_主控芯片.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/GX10/EN MO/EN MO 2.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的产品核心芯片卖点图。以输入的 STM32 H750 芯片渲染图为素材重构为 1:1 方版，保持中央发光的 STM32 H750 芯片、电路板与 EDGE TX 标志清晰。顶部居中排白色粗体主标题「STM32 H7」（56–64 px），其下排白色副标题「FASTER AND SMOOTHER」（24–28 px）。"
+      },
+      {
+        "output_filename": "详情图(3)_卖点_触控彩屏.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/GX10/EN MO/EN MO 4.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的触控彩屏卖点图。以输入的遥控器顶部彩屏特写图为素材重构为 1:1 方版，保持屏幕内的 EdgeTX 界面与手指触控光圈清晰。顶部居中排两行白色粗体主标题「2.8-INCH TOP-MOUNT COLOR TOUCH SCREEN」（44–50 px），其下排白色副标题「Easy to see even under direct sunlight.」（22–26 px）。"
+      },
+      {
+        "output_filename": "详情图(4)_卖点_人体工学握把.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/GX10/EN MO/EN MO 5.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的人体工学防滑握把卖点图。以输入的遥控器握把蓝光网格渲染图为素材重构为 1:1 方版。底部居中排两行白色粗体主标题「ERGONOMIC GAMEPAD-STYLE DESIGN」（42–48 px），其下排白色副标题「Ergonomic Anti-Slip Leather Back Grips」（22–26 px）。"
+      },
+      {
+        "output_filename": "详情图(5)_卖点_双18650电池仓.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/GX10/EN MO/EN MO 6.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的双 18650 电池仓卖点图。以输入的遥控器背面蓝色发光电池仓渲染图为素材重构为 1:1 方版。底部居中排白色粗体主标题「DUAL 18650 BATTERIES FOR EXTENDED USE」（40–46 px），其下排两行白色副标题「Smart active balance charging / Prevents overcharging, effectively extending battery life」（20–24 px），最下方小字排「*Batteries sold separately」。"
+      },
+      {
+        "output_filename": "详情图(6)_卖点_霍尔摇杆.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 9.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 X4-V2 霍尔摇杆特写卖点图。以输入的银灰色 GX10 摇杆高清微距特写图为唯一商品素材，保持摇杆金属齿冠、轴承结构、T1/T2 与 MDL 按键刻字 100% 锐利清晰。背景边缘做深空灰暗角过渡，摇杆外圈加柔和的科技蓝光晕。顶部左上对齐排 60–68 px 白色粗体主标题「X4-V2 Hall Gimbal」，其下排 26–28 px 浅蓝副标题「High-Precision Hall Sensor | Smooth & Precise Control」。底部横向并排三个深色圆角卖点标签（22–24 px 白色半粗体）：「Quad Precision Bearing」、「M3 Stick End Thread」、「Front Travel Adjustment」。严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(7)_卖点_电池仓细节.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 8.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的内部结构与可拆卸电池仓微距卖点图。以输入的银灰色 GX10 电池仓内部高清微距特写图为唯一商品素材，保持内部的 2pin 白色电源接口、正负极弹簧片、散热开孔以及 R-L/G/T 机身刻字 100% 锐利清晰。顶部左对齐排 46–52 px 深石墨灰粗体主标题「Modular Battery Bay & Easy Adjustment」，其下排 24–26 px 深灰副标题「Supports 2 × 18650 Li-ion Batteries | Tool-Free Stick Mode & Tension Access」。严禁出现中文。"
+      }
+    ],
+    "structure_configs": [
+      {
+        "output_filename": "详情图(9)_结构图_正面.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 1.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GX10 正面按键结构说明图（BUTTON LAYOUT）。背景为纯白色（#FFFFFF），顶部居中排 48–54 px 深蓝灰粗体标题「BUTTON LAYOUT」。画面中央放置输入的银灰色 GX10 正面图（实际宽约 520 px，保持屏幕、双摇杆、金属拨杆、按键和刻字清晰），从各个部件向左右两侧引出水平垂直折线箭头，在左右两侧空白处用 18–20 px 纯黑无衬线字体整齐排列英文部件名称：\n左侧从上到下依次标注：SB 3-Position Switch、SE 3-Position Switch、Speaker、Left Hall Gimbal、T3/T4 Digital Trims、SYS Button、RTN (Return) Button、PAGE> / PAGE< Buttons；\n顶部中央指向屏幕标注：2.8\" IPS Touchscreen (320×240)；\n底部中央指向6颗圆键标注：1-6 Programmable RGB Buttons；\n右侧从上到下依次标注：SC 3-Position Switch、SF 3-Position Switch、Lanyard Loop、Right Hall Gimbal、T1/T2 Digital Trims、Power Button、MDL Button、Metal Scroll Wheel、TELE Button。所有引线工整不交叉，严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(10)_结构图_背面.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 2.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GX10 背面接口与结构说明图。背景为纯白色（#FFFFFF），顶部居中排 48–54 px 深蓝灰粗体标题「REAR & PORT LAYOUT」。画面中央放置输入的银灰色 GX10 背面图（实际宽约 520 px，保持顶部天线、肩部旋钮、中央模块舱与两侧防滑胶皮握把清晰），从各个部位向四周引出黑色折线箭头并用 18–20 px 纯黑字体标注英文名称：\n顶部指向折叠天线：Foldable 2.4GHz Antenna；\n左侧从上到下依次标注：S2 Scroll Dial、DSC Trainer Port、H Button、Cooling Air Vents、Ergonomic Anti-Slip Rubber Grip (18650 Battery Bay Inside)；\n右侧从上到下依次标注：USB-C Port (Charging / Data / Simulator)、S1 Scroll Dial、G Button、External Nano Module Bay；\n底部中央加一个醒目的红框白底长条提示框，内部排 26–28 px 纯黑粗体「BATTERIES NOT INCLUDED」。严禁出现中文。"
+      }
+    ],
+    "handheld_config": {
+      "output_filename": "详情图(11)_手持实拍对比图.jpg",
+      "reference_images": [
+        "E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 1.jpg"
+      ],
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的手持实拍对比图。以输入的银灰色 GX10 正面白底图为唯一商品素材，展示一名成年飞手双手自然握持这台银灰色 GX10 遥控器的近景视角（双手拇指自然放在左右霍尔摇杆上，严格按照 180 × 165 mm 的真实紧凑手柄尺寸比例呈现，保持机身按键、屏幕与刻字 100% 锐利清晰）。背景为柔和虚化的户外飞行草地，光线自然真实，直观体现产品的紧凑体积与人体工学握持手感。全图无促销文字。"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Local credentials
+auto_image_gen/config/local_secrets.json
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local dependencies and logs
+node_modules/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

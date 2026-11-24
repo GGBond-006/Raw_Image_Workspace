@@ -1,0 +1,26 @@
+{
+  "default_provider": "qiuqiutoken",
+  "providers": {
+    "qiuqiutoken": {
+      "display_name": "球球Token (OpenAI GPT-Image 兼容网关)",
+      "adapter_class": "QiuQiuTokenProvider",
+      "base_url": "https://api.qiuqiutoken.net/v1",
+      "fallback_urls": [
+        "https://api2.qiuqiutoken.net/v1",
+        "https://api.qiuqiutoken.jiawuyu.com/v1",
+        "https://api2.qiuqiutoken.jiawuyu.com/v1"
+      ],
+      "default_model": "gpt-image-2",
+      "api_key_env": "QIUQIU_API_TOKEN",
+      "api_key": "",
+      "default_params": {
+        "quality": "high",
+        "input_fidelity": "high",
+        "output_format": "png",
+        "moderation": "low"
+      },
+      "timeout_seconds": 180,
+      "max_retries": 2
+    }
+  }
+}

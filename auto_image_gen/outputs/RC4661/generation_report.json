@@ -1,0 +1,82 @@
+{
+  "spu_code": "RC4661",
+  "provider": "qiuqiutoken",
+  "total_selected": 9,
+  "succeeded": 9,
+  "failed": 0,
+  "results": [
+    {
+      "filename": "主图3.jpg",
+      "category": "01_主图_速卖通定向",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\主图3.jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品主图。以输入的银灰色正面白底图为唯一商品素材，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 原样清晰。背景为纯白（#FFFFFF），商品居中放置，实际宽约 760–800 px，底部仅有极淡的自然接触阴影。严禁添加任何文字、边框、LOGO 或水印。"
+    },
+    {
+      "filename": "zt(1).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(1).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色正面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(2).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(2).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色左侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(3).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(3).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色右侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(4).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(4).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色背面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(5).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(5).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑正面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(6).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(6).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑左侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(7).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(7).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑右侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    },
+    {
+      "filename": "zt(8).jpg",
+      "category": "02_副图_白底多角度",
+      "status": "passthrough",
+      "output_path": "e:\\Projects\\Raw_Image_Workspace\\auto_image_gen\\outputs\\RC4661\\zt(8).jpg",
+      "final_size": "1000x1000",
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑背面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+    }
+  ],
+  "failures": []
+}

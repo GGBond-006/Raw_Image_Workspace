@@ -1,0 +1,272 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1600px;height:1000px;overflow:hidden}
+body{font-family:"Segoe UI","Microsoft YaHei UI","Microsoft YaHei",sans-serif;font-size:13px;line-height:1.5;color:#111827;background:#F5F6F8;display:flex;-webkit-font-smoothing:antialiased}
+.ic{flex-shrink:0;display:block}
+.mono{font-family:"Cascadia Mono",Consolas,monospace}
+.muted{color:#6B7280}.faint{color:#9CA3AF}
+.row{display:flex;align-items:center}
+.ell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* 侧边栏 */
+.sb{width:224px;height:1000px;background:#FFFFFF;border-right:1px solid #ECEEF2;display:flex;flex-direction:column;padding:18px 12px 14px}
+.sb-logo{display:flex;align-items:center;gap:10px;padding:0 8px 16px}
+.logo-mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#6366F1 0%,#8B5CF6 100%);display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 2px 8px rgba(99,102,241,.35)}
+.sb-title{font-weight:700;font-size:14.5px;letter-spacing:.2px;line-height:1.2}
+.sb-sub{font-size:11px;color:#9CA3AF;line-height:1.3}
+.sb-search{display:flex;align-items:center;gap:8px;height:34px;border:1px solid #ECEEF2;border-radius:8px;padding:0 10px;color:#9CA3AF;font-size:12.5px;margin:0 2px 8px;background:#FAFAFB}
+.sb-search .kbd{margin-left:auto;font-size:10.5px;border:1px solid #E5E7EB;border-radius:4px;padding:0 5px;color:#9CA3AF;background:#fff}
+.sb-sec{font-size:11px;color:#9CA3AF;font-weight:600;padding:14px 10px 6px;letter-spacing:.4px}
+.nav{display:flex;align-items:center;gap:10px;height:34px;padding:0 10px;border-radius:8px;color:#4B5563;font-size:13px}
+.nav.on{background:#EEF2FF;color:#4338CA;font-weight:600}
+.nav .cnt{margin-left:auto;font-size:11px;background:#F3F4F6;color:#6B7280;border-radius:10px;padding:0 7px;line-height:18px;font-weight:600}
+.nav.on .cnt{background:#E0E7FF;color:#4338CA}
+.recent{display:flex;align-items:center;gap:9px;height:32px;padding:0 10px;border-radius:8px;color:#4B5563;font-size:12.5px}
+.recent.on{background:#F5F6F8;color:#111827;font-weight:600}
+.recent .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.sb-foot{margin-top:auto;display:flex;flex-direction:column;gap:10px}
+.status-card{border:1px solid #ECEEF2;border-radius:10px;padding:11px 12px;background:#FAFAFB}
+.user{display:flex;align-items:center;gap:10px;padding:6px 6px 0}
+.avatar{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#F59E0B,#EF4444);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+
+/* 主区 */
+.main{flex:1;display:flex;flex-direction:column;min-width:0;height:1000px}
+.hd{height:64px;flex-shrink:0;background:#fff;border-bottom:1px solid #ECEEF2;display:flex;align-items:center;padding:0 28px;gap:20px}
+.crumb{display:flex;align-items:center;gap:6px;color:#9CA3AF;font-size:12px;line-height:1.2}
+.hd-title{font-size:16px;font-weight:700;color:#111827;display:flex;align-items:center;gap:10px;line-height:1.3;margin-top:2px}
+.stepper{display:flex;align-items:center;gap:12px;margin-left:auto}
+.st{display:flex;align-items:center;gap:9px;font-size:13px;color:#9CA3AF}
+.st .n{width:24px;height:24px;border-radius:50%;border:1.5px solid #D1D5DB;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;background:#fff}
+.st.on{color:#111827;font-weight:600}
+.st.on .n{border-color:#4F46E5;background:#4F46E5;color:#fff;box-shadow:0 0 0 4px #E0E7FF}
+.st.done{color:#374151}
+.st.done .n{border-color:#4F46E5;background:#EEF2FF;color:#4F46E5}
+.st-line{width:40px;height:2px;border-radius:2px;background:#E5E7EB}
+.st-line.done{background:#A5B4FC}
+.vsep{width:1px;height:28px;background:#ECEEF2}
+.content{flex:1;padding:20px 28px;min-height:0}
+.ft{height:68px;flex-shrink:0;background:#fff;border-top:1px solid #ECEEF2;display:flex;align-items:center;padding:0 28px;gap:12px}
+
+/* 通用组件 */
+.card{background:#fff;border:1px solid #ECEEF2;border-radius:14px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.card-hd{display:flex;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid #F1F2F5}
+.card-t{font-size:14px;font-weight:700;color:#111827;line-height:1.35}
+.card-d{font-size:12px;color:#6B7280;line-height:1.4}
+.sec-t{font-size:12.5px;font-weight:700;color:#374151;display:flex;align-items:center;gap:8px}
+.btn{height:34px;padding:0 14px;border-radius:8px;font-size:13px;font-weight:600;display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid transparent;font-family:inherit;white-space:nowrap}
+.btn-p{background:#4F46E5;color:#fff;box-shadow:0 1px 2px rgba(79,70,229,.35),inset 0 1px 0 rgba(255,255,255,.18)}
+.btn-s{background:#fff;color:#374151;border-color:#E5E7EB;box-shadow:0 1px 2px rgba(16,24,40,.05)}
+.btn-g{background:transparent;color:#6B7280}
+.btn-lg{height:40px;padding:0 20px;font-size:13.5px;border-radius:9px}
+.btn-sm{height:28px;padding:0 10px;font-size:12px;border-radius:7px}
+.pill{display:inline-flex;align-items:center;gap:5px;height:22px;padding:0 8px;border-radius:6px;font-size:11.5px;font-weight:600;white-space:nowrap}
+.p-ok{background:#ECFDF5;color:#047857}
+.p-warn{background:#FFFBEB;color:#B45309}
+.p-bad{background:#FEF2F2;color:#B91C1C}
+.p-brand{background:#EEF2FF;color:#4338CA}
+.p-gray{background:#F3F4F6;color:#4B5563}
+.thumb{background:#F7F8FA;border:1px solid #EEF0F3;border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;position:relative}
+.thumb img{width:100%;height:100%;object-fit:contain}
+.swatch{width:14px;height:14px;border-radius:4px;border:1px solid rgba(0,0,0,.12);flex-shrink:0}
+.chip{display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:7px;background:#F5F6F8;border:1px solid #EEF0F3;font-size:12px;color:#374151;white-space:nowrap}
+.switch{width:32px;height:18px;border-radius:10px;background:#4F46E5;position:relative;flex-shrink:0}
+.switch::after{content:"";position:absolute;right:2px;top:2px;width:14px;height:14px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.select{height:36px;border:1px solid #E5E7EB;border-radius:8px;display:flex;align-items:center;gap:8px;padding:0 10px 0 12px;font-size:13px;color:#111827;background:#fff;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.select .ic:last-child{margin-left:auto;color:#9CA3AF}
+.lbl{font-size:12px;color:#6B7280;font-weight:600;margin-bottom:6px}
+.logo-chip{display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:6px;background:#111827;color:#fff;font-weight:800;font-style:italic;font-size:12px;letter-spacing:.6px}
+.dot{width:7px;height:7px;border-radius:50%;display:inline-block;flex-shrink:0}
+
+.layout{display:grid;grid-template-columns:1fr 420px;gap:20px;height:100%}
+.sum{display:flex;align-items:center;gap:16px;padding:16px 20px;border-bottom:1px solid #F1F2F5}
+.bar{flex:1;height:8px;border-radius:8px;background:#EEF0F3;overflow:hidden}
+.bar i{display:block;height:100%;width:100%;background:linear-gradient(90deg,#6366F1,#10B981);border-radius:8px}
+.tabs{display:flex;align-items:center;gap:22px;padding:0 20px;border-bottom:1px solid #F1F2F5;height:46px}
+.tab{height:46px;display:flex;align-items:center;gap:6px;font-size:13px;color:#6B7280;font-weight:600;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab.on{color:#111827;border-bottom-color:#4F46E5}
+.tab .c{font-size:11px;background:#F3F4F6;color:#6B7280;border-radius:9px;padding:0 6px;line-height:17px}
+.tab.on .c{background:#EEF2FF;color:#4338CA}
+.gal{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;padding:16px 20px}
+.gi{border:1px solid #EEF0F3;border-radius:11px;overflow:hidden;background:#fff;position:relative}
+.gi .img{aspect-ratio:1/1;background:#F5F6F8;display:flex;align-items:center;justify-content:center}
+.gi .img img{width:100%;height:100%;object-fit:contain}
+.gi .cap{padding:7px 10px 8px}
+.gi .nm{font-size:12px;font-weight:600;color:#111827}
+.gi .mt{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#9CA3AF;margin-top:1px}
+.gi.sel{border-color:#4F46E5;box-shadow:0 0 0 3px #E0E7FF}
+.gtag{position:absolute;left:7px;top:7px;background:rgba(17,24,39,.72);color:#fff;font-size:10.5px;font-weight:600;border-radius:5px;padding:0 6px;line-height:18px}
+.gwarn{position:absolute;right:7px;top:7px;background:#F59E0B;color:#fff;font-size:10.5px;font-weight:600;border-radius:5px;padding:0 6px;line-height:18px;display:flex;align-items:center;gap:3px}
+.gcb{position:absolute;right:7px;top:7px;width:18px;height:18px;border-radius:5px;background:#4F46E5;color:#fff;display:flex;align-items:center;justify-content:center}
+.insp-sec{padding:12px 20px;border-bottom:1px solid #F5F6F8}
+.prev{height:252px;background:#F5F6F8;border-radius:12px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;border:1px solid #EEF0F3}
+.prev img{height:100%;object-fit:contain}
+.prev-tools{position:absolute;right:10px;top:10px;display:flex;gap:6px}
+.prev-tools div{width:28px;height:28px;border-radius:7px;background:rgba(255,255,255,.9);border:1px solid #E5E7EB;display:flex;align-items:center;justify-content:center;color:#4B5563}
+.ver{display:flex;gap:8px;align-items:center;margin-top:10px}
+.vt{width:44px;height:44px;border-radius:8px;border:1px solid #EEF0F3;overflow:hidden;background:#F5F6F8;position:relative}
+.vt img{width:100%;height:100%;object-fit:contain}
+.vt.on{border:2px solid #4F46E5}
+.vt span{position:absolute;left:2px;bottom:2px;font-size:9.5px;background:rgba(17,24,39,.75);color:#fff;border-radius:3px;padding:0 3px;line-height:13px}
+.meta{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.meta>div{background:#FAFAFB;border:1px solid #F1F2F5;border-radius:8px;padding:6px 10px}
+.meta .k{font-size:11px;color:#9CA3AF}
+.meta .v{font-size:12.5px;font-weight:600}
+.refs{display:flex;gap:8px}
+.ref{width:52px;height:52px;border-radius:8px;border:1px solid #EEF0F3;overflow:hidden;background:#F7F8FA}
+.ref img{width:100%;height:100%;object-fit:contain}
+.ref-add{width:52px;height:52px;border-radius:8px;border:1.5px dashed #D1D5DB;display:flex;align-items:center;justify-content:center;color:#9CA3AF}
+.prompt{height:150px;border:1px solid #E5E7EB;border-radius:10px;padding:10px 12px;font-size:12px;line-height:1.7;color:#374151;background:#FCFCFD;overflow:hidden;box-shadow:0 0 0 3px #EEF2FF;border-color:#A5B4FC}
+.prompt mark{background:#FEF3C7;color:#92400E;border-radius:3px;padding:0 2px}
+</style></head><body>
+<aside class="sb">
+  <div class="sb-logo">
+    <div class="logo-mark"><svg class="ic" style="" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 3v4"/><path d="M21 5h-4"/></svg></div>
+    <div><div class="sb-title">AutoShot 生图台</div><div class="sb-sub">跨境电商批量套图</div></div>
+  </div>
+  <div class="sb-search"><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><span>搜索 SKU / 任务</span><span class="kbd">Ctrl K</span></div>
+  <div class="nav"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg><span>工作台</span></div>
+  <div class="nav on"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg><span>生图任务</span><span class="cnt">3</span></div>
+  <div class="nav"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg><span>素材库</span></div>
+  <div class="nav"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1"/></svg><span>品牌 LOGO 库</span></div>
+  <div class="nav"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M8 13h8M8 17h8M8 9h2"/></svg><span>提示词模板</span></div>
+  <div class="nav"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg><span>生图平台</span></div>
+  <div class="sb-sec">最近任务</div>
+  <div class="recent on"><span class="dot" style="background:#6366F1"></span><span class="ell">RC4661 · GX10 遥控器</span></div>
+  <div class="recent"><span class="dot" style="background:#10B981"></span><span class="ell">RC5102 · SKYRC 充电器</span></div>
+  <div class="recent"><span class="dot" style="background:#10B981"></span><span class="ell">RC3980 · Pocket 遥控器</span></div>
+  <div class="recent"><span class="dot" style="background:#D1D5DB"></span><span class="ell">RC4120 · 9IMOD 电调</span></div>
+  <div class="sb-foot">
+    <div class="status-card">
+      <div class="row" style="justify-content:space-between;font-size:11.5px;color:#6B7280;font-weight:600"><span>生图平台</span><span class="row" style="gap:5px;color:#047857"><span class="dot" style="background:#10B981"></span>正常</span></div>
+      <div style="font-size:13px;font-weight:700;margin-top:4px">球球Token</div>
+      <div class="mono" style="font-size:11px;color:#9CA3AF">gpt-image-2 · 平均 21s / 张</div>
+    </div>
+    <div class="user"><div class="avatar">王</div><div style="line-height:1.3"><div style="font-size:12.5px;font-weight:600">王晓 · 运营</div><div style="font-size:11px;color:#9CA3AF">美工组</div></div><div style="margin-left:auto;color:#9CA3AF"><svg class="ic" style="" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg></div></div>
+  </div>
+</aside><main class='main'>
+<header class="hd">
+  <div>
+    <div class="crumb">生图任务 <svg class="ic" style="" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg> RC4661</div>
+    <div class="hd-title">GX10 16CH 遥控器 <span class="pill p-gray">RadioMaster</span></div>
+  </div>
+  <div class="stepper">
+    <div class="st done"><div class="n"><svg class="ic" style="" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>导入素材</div><div class="st-line done"></div>
+    <div class="st done"><div class="n"><svg class="ic" style="" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>核对参数</div><div class="st-line done"></div>
+    <div class="st on"><div class="n">3</div>生成与验收</div>
+  </div>
+  <div class="vsep"></div>
+<div class="row" style="gap:10px">
+  <button class="btn btn-s"><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>重绘所选 (1)</button>
+  <button class="btn btn-p"><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>导出通途图库包</button>
+</div>
+</header>
+<div class="content"><div class="layout">
+  <section class="card" style="display:flex;flex-direction:column;overflow:hidden">
+    <div class="sum">
+      <div class="row" style="gap:10px"><div style="width:32px;height:32px;border-radius:50%;background:#ECFDF5;color:#059669;display:flex;align-items:center;justify-content:center"><svg class="ic" style="" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <div style="line-height:1.35"><div style="font-weight:700;font-size:14px">生成完成</div><div class="card-d">57 / 57 · 用时 18 分 32 秒</div></div></div>
+      <div class="bar"><i></i></div>
+      <span class="pill p-ok">54 通过</span><span class="pill p-warn">3 待复核</span>
+      <span class="pill p-gray">尺寸合规 100%</span>
+    </div>
+    <div class="tabs">
+      <div class="tab on">全部<span class="c">57</span></div>
+      <div class="tab">主图<span class="c">6</span></div>
+      <div class="tab">白底副图<span class="c">8</span></div>
+      <div class="tab">属性图<span class="c">12</span></div>
+      <div class="tab">详情 / 卖点<span class="c">13</span></div>
+      <div class="tab">俄语<span class="c">18</span></div>
+      <div class="tab" style="color:#B45309">待复核<span class="c" style="background:#FFFBEB;color:#B45309">3</span></div>
+      <div class="row" style="margin-left:auto;gap:6px;font-size:12px;color:#6B7280"><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>网格视图</div>
+    </div>
+    <div class="gal">
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图1.jpg"></div>
+    <span class="gtag">9imod</span>
+    <div class="cap"><div class="nm ell">主图1.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图2.jpg"></div>
+    <span class="gtag">Moonhobby</span>
+    <div class="cap"><div class="nm ell">主图2.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图4.jpg"></div>
+    <span class="gtag">9imod 全托</span>
+    <div class="cap"><div class="nm ell">主图4.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图6.jpg"></div>
+    <span class="gtag">FCFT</span>
+    <div class="cap"><div class="nm ell">主图6.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(1).jpg"></div>
+    <span class="gtag">白底副图</span>
+    <div class="cap"><div class="nm ell">zt(1).jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/包裹图.jpg"></div>
+    <span class="gtag">包裹图</span>
+    <div class="cap"><div class="nm ell">包裹图.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi sel"><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A_RC4226A.jpg"></div>
+    <span class="gtag">属性图</span><span class="gcb"><svg class="ic" style="" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+    <div class="cap"><div class="nm ell">RC4661A_RC4226A.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(1)_场景图.jpg"></div>
+    <span class="gtag">场景图</span>
+    <div class="cap"><div class="nm ell">详情图(1)_场景图.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(6)_卖点_霍尔摇杆.jpg"></div>
+    <span class="gtag">卖点图</span>
+    <div class="cap"><div class="nm ell">详情图(6)_霍尔摇杆.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(8)_参数表.jpg"></div>
+    <span class="gtag">参数表</span><span class="gwarn"><svg class="ic" style="" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>待复核</span>
+    <div class="cap"><div class="nm ell">详情图(8)_参数表.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#B45309"><span class="dot" style="background:#F59E0B;width:6px;height:6px"></span>待复核</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(9)_结构图_正面.jpg"></div>
+    <span class="gtag">结构图</span>
+    <div class="cap"><div class="nm ell">详情图(9)_结构正面.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(11)_手持实拍对比图.jpg"></div>
+    <span class="gtag">手持对比</span>
+    <div class="cap"><div class="nm ell">详情图(11)_手持.jpg</div><div class="mt"><span class="mono">1000²</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/750X1000.jpg"></div>
+    <span class="gtag">广告图</span>
+    <div class="cap"><div class="nm ell">750X1000.jpg</div><div class="mt"><span class="mono">750×1000</span><span class="row" style="gap:4px;color:#047857"><span class="dot" style="background:#10B981;width:6px;height:6px"></span>通过</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661C俄文1.jpg"></div>
+    <span class="gtag">俄语主图</span><span class="gwarn"><svg class="ic" style="" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>待复核</span>
+    <div class="cap"><div class="nm ell">RC4661C俄文1.jpg</div><div class="mt"><span class="mono">900×1200</span><span class="row" style="gap:4px;color:#B45309"><span class="dot" style="background:#F59E0B;width:6px;height:6px"></span>待复核</span></div></div></div>
+      <div class="gi "><div class="img"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661B_RC4226A俄文4.jpg"></div>
+    <span class="gtag">俄语包裹</span><span class="gwarn"><svg class="ic" style="" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>待复核</span>
+    <div class="cap"><div class="nm ell">RC4661B_RC4226A俄文4.jpg</div><div class="mt"><span class="mono">900×1200</span><span class="row" style="gap:4px;color:#B45309"><span class="dot" style="background:#F59E0B;width:6px;height:6px"></span>待复核</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- 右：单图检查器 -->
+  <section class="card" style="display:flex;flex-direction:column;overflow:hidden">
+    <div class="card-hd" style="padding:14px 20px">
+      <div style="min-width:0"><div class="card-t mono ell" style="font-size:13.5px">RC4661A_RC4226A.jpg</div>
+      <div class="card-d">属性图 · 银灰 FCC + RC4226A 电池</div></div>
+      <div class="row" style="margin-left:auto;gap:4px;color:#9CA3AF"><svg class="ic" style="" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg><svg class="ic" style="" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></div>
+    </div>
+    <div class="insp-sec">
+      <div class="prev"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A_RC4226A.jpg">
+        <div class="prev-tools"><div><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/></svg></div><div><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg></div></div></div>
+      <div class="ver">
+        <span class="lbl" style="margin:0 6px 0 0">版本</span>
+        <div class="vt"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A_RC4226A.jpg" style="filter:saturate(.6) brightness(1.05)"><span>v1</span></div>
+        <div class="vt on"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A_RC4226A.jpg"><span>v2</span></div>
+        <div class="meta" style="margin-left:auto;grid-template-columns:auto auto;gap:6px">
+          <div><div class="k">尺寸</div><div class="v mono">1000×1000</div></div>
+          <div><div class="k">耗时</div><div class="v">21.6 s</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="insp-sec">
+      <div class="lbl">参考图</div>
+      <div class="refs">
+        <div class="ref"><img src="file:///E:/Projects/Raw_Image_Workspace/RC4661 GX10遥控器/GX10/普-灰/普-灰 10.jpg"></div><div class="ref"><img src="file:///E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC4226A.png"></div>
+        <div class="ref-add"><svg class="ic" style="" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5v14"/></svg></div>
+        <div class="card-d" style="align-self:center;margin-left:6px;line-height:1.5">配件合照 + 共享电池<br>多图联合输入</div>
+      </div>
+    </div>
+    <div class="insp-sec" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div><div class="lbl">平台</div><div class="select"><span class="dot" style="background:#10B981"></span>球球Token<svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></div></div>
+      <div><div class="lbl">模型</div><div class="select"><span class="mono">gpt-image-2</span><svg class="ic" style="" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></div></div>
+    </div>
+    <div class="insp-sec" style="border-bottom:none;flex:1">
+      <div class="row lbl" style="justify-content:space-between"><span>提示词</span><span class="pill p-warn" style="height:18px;font-size:10.5px">已修改</span></div>
+      <div class="prompt">制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性图。以图1 银灰色 GX10 配件合照和图2 两节 18650 锂电池为合成素材，保持外观与细节可辨识。顶部通栏 82 px，左 78% 深石墨底排白色粗体「GX10 16CH Radio」，右 22% <mark>亮红色斜切块排「FCC」</mark>。右上方横排「18650 Lipo Battery」，下方<mark>水平正立</mark>放置两节电池……</div>
+    </div>
+    <div style="padding:14px 20px 18px;display:flex;gap:10px;border-top:1px solid #F1F2F5">
+      <button class="btn btn-p btn-lg" style="flex:1"><svg class="ic" style="" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>重新生成此图 · 约 20s</button>
+      <button class="btn btn-s btn-lg"><svg class="ic" style="" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>存为模板</button>
+    </div>
+  </section>
+</div></div></main></body></html>

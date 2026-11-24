@@ -1,0 +1,367 @@
+{
+  "provider_id": "qiuqiutoken",
+  "model_name": "gpt-image-2",
+  "quality": "high",
+  "records": {
+    "主图1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图1_v1.jpg",
+          "ts": 1795506071,
+          "elapsed": 24.45,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的速卖通商品主图。以输入的红色 RC4646 正面白底图为唯一商品素材，抠取原物并合成，严格保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字清晰锐利。\n\n背景用深海蓝到星空暗蓝的科技感室外航模飞行场背景（地平线处有柔和晨曦微光），背景层均匀铺设半透明斜向阵列「9imod」店铺名水印（白色，不透明度约 14%，不遮挡商品主体）。\n\n顶部居中排品牌名「YXZNRC」，字号约 26 px。其下主标题「F08S Bell-206 Helicopter」用 68–74 px 白色粗体（其中型号用亮天蓝色高亮）。副标题用 26–28 px 白色半粗体单行居中显示：\n1/27 Scale | GPS Positioning | Brushless Motor\n\n画面中下部居中放置商品主体，实际宽度约 640–680 px，底部加真实接触阴影与微弱倒影，保持机身每一处按键刻字原样清晰。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 24.45,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图2_v1.jpg",
+          "ts": 1795506092,
+          "elapsed": 21.41,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 Moonhobby 店铺专属主图。以输入的红色正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 清晰不变形。\n\n背景用干净的冰白到浅天蓝柔和渐变。画布四周边缘设计一圈亮色调（亮天蓝与活力橙撞色）的现代几何装饰边框（边框厚约 24 px），顶部边框中央蓝底铭牌居中排白色粗体店铺名「Moonhobby」（字号约 30 px）。\n\n画框内部左上角排主标题「F08S 6CH GPS Helicopter」（58–64 px 深海军蓝粗体），其下并排两个胶囊形卖点标签：「1/27 Scale」（蓝底白字）与「GPS Positioning」（橙底白字）。\n\n画面中央偏下放置商品主体，实际宽约 640–670 px，底部加柔和接触阴影。画框右下角放置一枚精致的金色盾牌品质徽章，内部清晰排英文「Quality Assurance」。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 21.41,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图3_v1.jpg",
+          "ts": 1795506092,
+          "elapsed": 0.01,
+          "provider_id": "qiuqiutoken",
+          "model_name": "passthrough",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品主图。以输入的红色正面白底图为唯一商品素材，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 原样清晰。背景为纯白（#FFFFFF），商品居中放置，实际宽约 760–800 px，底部仅有极淡的自然接触阴影。严禁添加任何文字、边框、LOGO 或水印。"
+        }
+      ],
+      "elapsed_seconds": 0.01,
+      "provider_id": "qiuqiutoken",
+      "model_name": "passthrough"
+    },
+    "主图4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图4_v1.jpg",
+          "ts": 1795507898,
+          "elapsed": 18.86,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 9imod 全托店铺专属主图。以输入的红色正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 原样清晰。\n\n背景用纯净的浅灰白渐变。画布四周边缘加上一圈醒目的正红色（#E60012）实心边框（边框宽约 26 px），顶部红框中央加宽铭牌居中排白色粗体店铺名「9imod」（字号约 32 px）。\n\n画框内顶部居中排主标题「F08S Bell-206 Helicopter」（60–66 px 纯黑粗体），其下用 24–26 px 深灰半粗体排三项核心卖点：\n1/27 Scale   |   GPS Positioning   |   Brushless Motor\n\n画面中下部居中放置商品主体，实际宽约 650–680 px，底部加轻柔接触阴影。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 18.86,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图5.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图5_v1.jpg",
+          "ts": 1795507925,
+          "elapsed": 27.31,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的正面实物单反实拍风格主图。以输入的红色正面白底图为唯一商品素材，抠取原物并合成在前景中央（实际宽约 720–760 px），保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 锐利清晰。\n\n背景为真实的户外木质航模工作台与阳光草地环境，使用大光圈镜头景深效果对背景做强烈的高斯模糊虚化（焦外光斑柔和自然），商品底部与桌面有真实的物理接触阴影和环境漫反射光。\n\n全图严禁出现任何边框、文字、LOGO、角标或电商排版元素，呈现纯粹的高清正面实物摄影效果。"
+        }
+      ],
+      "elapsed_seconds": 27.31,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图6.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4646/.versions/主图6_v1.jpg",
+          "ts": 1795507948,
+          "elapsed": 23.1,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的侧面/斜侧面实物单反实拍风格主图。以输入的红色斜侧面/侧面白底图为唯一商品素材，抠取原物并合成在前景中央（实际宽约 700–740 px），保持原图侧面立体角度、外壳质感、摇杆高度、拨杆和机身刻字 100% 锐利清晰。\n\n背景为真实的现代化室内电子工作台环境，使用大光圈浅景深效果对背景做强烈的高斯模糊虚化，商品底部有真实的桌面接触阴影。\n\n全图严禁出现任何边框、文字、LOGO、角标或电商排版元素，呈现纯粹的高清侧面实物摄影效果。"
+        }
+      ],
+      "elapsed_seconds": 23.1,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(1).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(2).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(3).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "包裹图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A_RC3670-DC.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A_RC3670-DCx2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(1)_场景图_户外飞行.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(2)_卖点_GPS智能返航.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(3)_卖点_光流激光雷达定高.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(4)_卖点_CNC旋翼头与双无刷动力.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(5)_卖点_智能锂电池.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(6)_卖点_一键倒飞与智能航线.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(8)_参数表.jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "750X1000.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(9)_结构图_机身核心结构.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(10)_结构图_遥控器与遥测屏幕.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(11)_手持实拍对比图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A俄文1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A_RC3670-DC俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4646A_RC3670-DCx2俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    }
+  }
+}

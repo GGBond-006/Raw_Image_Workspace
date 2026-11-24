@@ -1,0 +1,177 @@
+{
+  "provider_id": "qiuqiutoken",
+  "model_name": "gpt-image-2",
+  "quality": "high",
+  "records": {
+    "主图1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图5.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图6.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(1).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(2).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(3).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "包裹图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4537A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(8)_参数表.jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "750X1000.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4537A俄文1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4537A俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4537A俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4537A俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "spu_code": "RC4646",
+  "target_dir": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机",
+  "task_json_path": "E:/Projects/Raw_Image_Workspace/auto_image_gen/tasks/rc4646_task.json",
+  "copied_docs": [
+    "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/RC4646 图片需求.xls",
+    "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/F08S直升机 报价资料 -.xls",
+    "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/RC4646_清洗后产品资料.txt"
+  ],
+  "slots": [
+    {
+      "color_folder": "红白消防涂装",
+      "role": "front_png",
+      "src": "E:/DownLoad/RC4646A  F08S (加带GPS，新涂装，替代RC3670）/F08S(1)/F08S/白底/画板 7.jpg",
+      "dst": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/1_正面_front.jpg",
+      "size": "1000x1000",
+      "kb": 56.2
+    },
+    {
+      "color_folder": "红白消防涂装",
+      "role": "angled_png",
+      "src": "E:/DownLoad/RC4646A  F08S (加带GPS，新涂装，替代RC3670）/F08S(1)/F08S/白底/画板 2.jpg",
+      "dst": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/3_斜侧_angled.jpg",
+      "size": "1000x1000",
+      "kb": 204.2
+    },
+    {
+      "color_folder": "红白消防涂装",
+      "role": "left_png",
+      "src": "E:/DownLoad/RC4646A  F08S (加带GPS，新涂装，替代RC3670）/F08S(1)/F08S/白底/画板 8.jpg",
+      "dst": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/4_左侧_left.jpg",
+      "size": "1000x1000",
+      "kb": 95.6
+    },
+    {
+      "color_folder": "红白消防涂装",
+      "role": "right_png",
+      "src": "E:/DownLoad/RC4646A  F08S (加带GPS，新涂装，替代RC3670）/F08S(1)/F08S/白底/画板 5.jpg",
+      "dst": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/5_右侧_right.jpg",
+      "size": "1000x1000",
+      "kb": 112.9
+    },
+    {
+      "color_folder": "红白消防涂装",
+      "role": "package_png",
+      "src": "E:/DownLoad/RC4646A  F08S (加带GPS，新涂装，替代RC3670）/F08S(1)/F08S/F08S英文/英文主图sku/sku (1).jpg",
+      "dst": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/7_配件合照_package.jpg",
+      "size": "1000x1000",
+      "kb": 204.8
+    }
+  ],
+  "raw_refs": {
+    "alt_flying_left45": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/alt_flying_left45.jpg",
+    "alt_flying_right45": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/alt_flying_right45.jpg",
+    "sku_heli_tx": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sku_heli_tx.jpg",
+    "scene_gps_flight": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/scene_gps_flight.jpg",
+    "sp_gps_rth": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_gps_rth.jpg",
+    "sp_lidar_optflow": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_lidar_optflow.jpg",
+    "sp_battery": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_battery.jpg",
+    "sp_inverted": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_inverted.jpg",
+    "sp_cnc_motor": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_cnc_motor.jpg",
+    "sp_4parts": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_4parts.jpg",
+    "struct_tx_lcd": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/struct_tx_lcd.jpg"
+  },
+  "shared_skus": {
+    "RC3670-DC": "E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC3670-DC.png"
+  }
+}

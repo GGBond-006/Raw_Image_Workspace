@@ -1,0 +1,897 @@
+{
+  "provider_id": "qiuqiutoken",
+  "model_name": "gpt-image-2",
+  "quality": "high",
+  "records": {
+    "主图1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图1.jpg",
+          "ts": 1795430030,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的速卖通商品主图。以输入的银灰色 RC4661 正面白底图为唯一商品素材，抠取原物并合成，严格保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字清晰锐利。\n\n背景用深海蓝到星空暗蓝的科技感室外航模飞行场背景（地平线处有柔和晨曦微光），背景层均匀铺设半透明斜向阵列「9imod」店铺名水印（白色，不透明度约 14%，不遮挡商品主体）。\n\n顶部居中排品牌名「RADIOMASTER」，字号约 26 px。其下主标题「GX10 16CH Transmitter」用 68–74 px 白色粗体（其中型号用亮天蓝色高亮）。副标题用 26–28 px 白色半粗体单行居中显示：\nELRS 2.4GHz | 16CH | X4-V2 Hall Gimbal\n\n画面中下部居中放置商品主体，实际宽度约 640–680 px，底部加真实接触阴影与微弱倒影，保持机身每一处按键刻字原样清晰。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图2.jpg",
+          "ts": 1795427428,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 Moonhobby 店铺专属主图。以输入的银灰色正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 清晰不变形。\n\n背景用干净的冰白到浅天蓝柔和渐变。画布四周边缘设计一圈亮色调（亮天蓝与活力橙撞色）的现代几何装饰边框（边框厚约 24 px），顶部边框中央蓝底铭牌居中排白色粗体店铺名「Moonhobby」（字号约 30 px）。\n\n画框内部左上角排主标题「GX10 16CH Radio」（58–64 px 深海军蓝粗体），其下并排两个胶囊形卖点标签：「ELRS 2.4GHz」（蓝底白字）与「16CH」（橙底白字）。\n\n画面中央偏下放置商品主体，实际宽约 640–670 px，底部加柔和接触阴影。画框右下角放置一枚精致的金色盾牌品质徽章，内部清晰排英文「Quality Assurance」。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图3.jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品主图。以输入的银灰色正面白底图为唯一商品素材，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 原样清晰。背景为纯白（#FFFFFF），商品居中放置，实际宽约 760–800 px，底部仅有极淡的自然接触阴影。严禁添加任何文字、边框、LOGO 或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图4.jpg",
+          "ts": 1795482710,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 9imod 全托店铺专属主图。以输入的银灰色正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 原样清晰。\n\n背景用纯净的浅灰白渐变。画布四周边缘加上一圈醒目的正红色（#E60012）实心边框（边框宽约 26 px），顶部红框中央加宽铭牌居中排白色粗体店铺名「9imod」（字号约 32 px）。\n\n画框内顶部居中排主标题「GX10 16CH Transmitter」（60–66 px 纯黑粗体），其下用 24–26 px 深灰半粗体排三项核心卖点：\nELRS 2.4GHz   |   16CH   |   X4-V2 Hall Gimbal\n\n画面中下部居中放置商品主体，实际宽约 650–680 px，底部加轻柔接触阴影。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图5.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图5.jpg",
+          "ts": 1795427463,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的正面实物单反实拍风格主图。以输入的银灰色正面白底图为唯一商品素材，抠取原物并合成在前景中央（实际宽约 720–760 px），保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 锐利清晰。\n\n背景为真实的户外木质航模工作台与阳光草地环境，使用大光圈镜头景深效果对背景做强烈的高斯模糊虚化（焦外光斑柔和自然），商品底部与桌面有真实的物理接触阴影和环境漫反射光。\n\n全图严禁出现任何边框、文字、LOGO、角标或电商排版元素，呈现纯粹的高清正面实物摄影效果。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "主图6.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/主图6.jpg",
+          "ts": 1795482741,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的侧面/斜侧面实物单反实拍风格主图。以输入的银灰色斜侧面/侧面白底图为唯一商品素材，抠取原物并合成在前景中央（实际宽约 700–740 px），保持原图侧面立体角度、外壳质感、摇杆高度、拨杆和机身刻字 100% 锐利清晰。\n\n背景为真实的现代化室内电子工作台环境，使用大光圈浅景深效果对背景做强烈的高斯模糊虚化，商品底部有真实的桌面接触阴影。\n\n全图严禁出现任何边框、文字、LOGO、角标或电商排版元素，呈现纯粹的高清侧面实物摄影效果。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(1).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(1).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色正面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(2).jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(2).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色左侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(3).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(3).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色右侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(4).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(4).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的银灰色背面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(5).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(5).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑正面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(6).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(6).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑左侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(7).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(7).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑右侧面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "zt(8).jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/zt(8).jpg",
+          "ts": 1795483183,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的纯白底商品副图。以输入的半透明黑背面图为唯一商品素材，抠取原物并置于纯白背景（#FFFFFF）中央，占画布宽高约 80%，保持原图外观、结构、按键与刻字 100% 不变。严禁添加任何文字、边框或水印。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "包裹图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/包裹图.jpg",
+          "ts": 1795429736,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GX10 英文包裹清单图。背景用干净的暖白或浅灰，标题「PACKAGE INCLUDES」顶部居中，用 52–60 px 深石墨灰粗体。\n\n画面上部使用上传的银灰色 GX10 标准配件白底合照作为唯一合成素材，保持原有商品、配件的外观、机身刻字和可辨识度。银灰 GX10 和灰色收纳包是最大主体，右侧展示蓝色摇杆保护架、备用天线、USB-C 线、屏幕保护膜、两把工具、两类胶塞、贴纸、说明书和清单卡。沿用照片中真实配件和数量，保持小配件边缘清晰锐利。\n\n配件区下方留出足够位置，用左右两栏整齐排英文清单。正文字号 18–20 px 深灰半粗体，长条目自然对齐：\n\n左栏：\n1 × GX10 Radio Controller\n1 × GX10 Carry Case\n1 × Gimbal Protector\n1 × Replaceable Antenna\n1 × MMCX Removal Tool\n1 × Type-C Cable\n1 × Screen Protector\n\n右栏：\n1 × 1.5mm Hex Wrench\n2 × Slider Delete Grommets\n7 × Switch Delete Grommets\n1 × RadioMaster Sticker Set\n1 × GX10 Manual\n1 × Inventory Card\n\n所有配件以输入合照为准，英文原样准确排版，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/.versions/RC4661A_v1.jpg",
+          "ts": 1795493885,
+          "elapsed": 21.09,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性规格图。以输入的银灰色 GX10 标准配件白底合照为唯一合成素材，保持所有商品和配件的外观、细节和可辨识度。\n\n画布背景为干净的纯白色（#FFFFFF）。顶部通栏高约 82 px，左 78% 为深石墨黑底色（#262626）居中偏左排 50–56 px 白色粗体「GX10 16CH Radio」；右 22% 为亮红色斜切色块（#FF0000）居中排 50–56 px 白色粗体版本标识「FCC」。\n\n横幅下方主画面：\n左上侧放置银灰色 GX10 遥控器正面主体（实际宽约 450–480 px，保持按键与机身刻字清晰），右上侧放置灰色 RadioMaster 收纳包；\n其余区域用带细深灰圆角边框的白色卡片网格，整齐排列蓝色摇杆保护架、备用天线、USB-C 线、屏幕保护膜、两把扳手工具、两类胶塞、贴纸、说明书和清单卡，每张小卡片底部居中用 15–17 px 深灰字体标注对应英文名称。\n\n整体排版紧凑清晰，英文拼写准确，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 21.09,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A_RC4226A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A_RC4226A.jpg",
+          "ts": 1795429761,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性规格图。以输入的图1（银灰色 GX10 标准配件白底合照）和图2（两节 18650 锂电池合照）为合成素材，保持所有商品和配件的外观、细节和可辨识度。\n\n画布背景为干净的纯白色（#FFFFFF）。顶部通栏高约 82 px，左 78% 为深石墨黑底色（#262626）居中偏左排 50–56 px 白色粗体「GX10 16CH Radio」；右 22% 为亮红色斜切色块（#FF0000）居中排 50–56 px 白色粗体版本标识「FCC」。\n\n横幅下方主画面分为上下两部分：\n上部左侧（占宽约 48%）放置银灰色 GX10 遥控器正面主体（实际宽约 430–460 px，严格保持按键与机身刻字清晰）；\n上部右侧（占宽约 48%）上方用 34–38 px 黑色粗体斜体排电池标题「18650 Lipo Battery」，其下水平正向放置输入的两节 18650 锂电池（保持电池水平端正、电池表面文字正向清晰可读，严禁颠倒）；\n下部区域用带细深灰圆角边框（圆角 10 px）的白色卡片网格，整齐排列合照中的其余 12 项配件，每张小卡片内的配件图案必须与卡片底部的 15–17 px 深灰英文名称严格一一对应（灰色收纳包标注 GX10 Carry Case、透明矩形保护膜标注 Screen Protector、黑色数据线标注 Type-C Cable、蓝色镂空双环保护架标注 Gimbal Protector、灰色T型天线标注 Dual-Band Antenna、细直金属杆标注 MMCX Removal Tool、L型弯头内六角扳手标注 1.5mm Hex Wrench、2个宽弧形黑胶塞标注 Slider Delete Grommets、7个小圆柱黑胶塞标注 Switch Delete Grommets、彩色贴纸标注 RadioMaster Sticker Set、顶部黑条说明书标注 GX10 Manual、纯白清单卡标注 Inventory Card）。\n\n整体排版紧凑清晰，英文拼写准确，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A_RC3473.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/.versions/RC4661A_RC3473_v1.jpg",
+          "ts": 1795493907,
+          "elapsed": 22.71,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性规格图。以输入的图1（银灰色 GX10 标准配件白底合照）和图2（两节 18650 锂电池合照）为合成素材，保持所有商品和配件的外观、细节和可辨识度。\n\n画布背景为干净的纯白色（#FFFFFF）。顶部通栏高约 82 px，左 78% 为深石墨黑底色（#262626）居中偏左排 50–56 px 白色粗体「GX10 16CH Radio」；右 22% 为亮红色斜切色块（#FF0000）居中排 50–56 px 白色粗体版本标识「FCC」。\n\n横幅下方主画面分为上下两部分：\n上部左侧（占宽约 48%）放置银灰色 GX10 遥控器正面主体（实际宽约 430–460 px，严格保持按键与机身刻字清晰）；\n上部右侧（占宽约 48%）上方用 34–38 px 黑色粗体斜体排电池标题「RadioMaster 18650 3200mAh 3.7V」，其下水平正向放置输入的两节 18650 锂电池（保持电池水平端正、电池表面文字正向清晰可读，严禁颠倒）；\n下部区域用带细深灰圆角边框（圆角 10 px）的白色卡片网格，整齐排列合照中的其余 12 项配件，每张小卡片内的配件图案必须与卡片底部的 15–17 px 深灰英文名称严格一一对应（灰色收纳包标注 GX10 Carry Case、透明矩形保护膜标注 Screen Protector、黑色数据线标注 Type-C Cable、蓝色镂空双环保护架标注 Gimbal Protector、灰色T型天线标注 Dual-Band Antenna、细直金属杆标注 MMCX Removal Tool、L型弯头内六角扳手标注 1.5mm Hex Wrench、2个宽弧形黑胶塞标注 Slider Delete Grommets、7个小圆柱黑胶塞标注 Switch Delete Grommets、彩色贴纸标注 RadioMaster Sticker Set、顶部黑条说明书标注 GX10 Manual、纯白清单卡标注 Inventory Card）。\n\n整体排版紧凑清晰，英文拼写准确，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 22.71,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/.versions/RC4661B_v1.jpg",
+          "ts": 1795493930,
+          "elapsed": 22.2,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性规格图。以输入的银灰色 GX10 标准配件白底合照为唯一合成素材，保持所有商品和配件的外观、细节和可辨识度。\n\n画布背景为干净的纯白色（#FFFFFF）。顶部通栏高约 82 px，左 78% 为深石墨黑底色（#262626）居中偏左排 50–56 px 白色粗体「GX10 16CH Radio」；右 22% 为亮红色斜切色块（#FF0000）居中排 50–56 px 白色粗体版本标识「LBT」。\n\n横幅下方主画面：\n左上侧放置银灰色 GX10 遥控器正面主体（实际宽约 450–480 px，保持按键与机身刻字清晰），右上侧放置灰色 RadioMaster 收纳包；\n其余区域用带细深灰圆角边框的白色卡片网格，整齐排列蓝色摇杆保护架、备用天线、USB-C 线、屏幕保护膜、两把扳手工具、两类胶塞、贴纸、说明书和清单卡，每张小卡片底部居中用 15–17 px 深灰字体标注对应英文名称。\n\n整体排版紧凑清晰，英文拼写准确，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 22.2,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B_RC4226A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/.versions/RC4661B_RC4226A_v1.jpg",
+          "ts": 1795493956,
+          "elapsed": 26.6,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的电商 SKU 属性规格图。以输入的图1（银灰色 GX10 标准配件白底合照）和图2（两节 18650 锂电池合照）为合成素材，保持所有商品和配件的外观、细节和可辨识度。\n\n画布背景为干净的纯白色（#FFFFFF）。顶部通栏高约 82 px，左 78% 为深石墨黑底色（#262626）居中偏左排 50–56 px 白色粗体「GX10 16CH Radio」；右 22% 为亮红色斜切色块（#FF0000）居中排 50–56 px 白色粗体版本标识「LBT」。\n\n横幅下方主画面分为上下两部分：\n上部左侧（占宽约 48%）放置银灰色 GX10 遥控器正面主体（实际宽约 430–460 px，严格保持按键与机身刻字清晰）；\n上部右侧（占宽约 48%）上方用 34–38 px 黑色粗体斜体排电池标题「18650 Lipo Battery」，其下水平正向放置输入的两节 18650 锂电池（保持电池水平端正、电池表面文字正向清晰可读，严禁颠倒）；\n下部区域用带细深灰圆角边框（圆角 10 px）的白色卡片网格，整齐排列合照中的其余 12 项配件，每张小卡片内的配件图案必须与卡片底部的 15–17 px 深灰英文名称严格一一对应（灰色收纳包标注 GX10 Carry Case、透明矩形保护膜标注 Screen Protector、黑色数据线标注 Type-C Cable、蓝色镂空双环保护架标注 Gimbal Protector、灰色T型天线标注 Dual-Band Antenna、细直金属杆标注 MMCX Removal Tool、L型弯头内六角扳手标注 1.5mm Hex Wrench、2个宽弧形黑胶塞标注 Slider Delete Grommets、7个小圆柱黑胶塞标注 Switch Delete Grommets、彩色贴纸标注 RadioMaster Sticker Set、顶部黑条说明书标注 GX10 Manual、纯白清单卡标注 Inventory Card）。\n\n整体排版紧凑清晰，英文拼写准确，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": 26.6,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B_RC3473.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C_RC4226A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C_RC3473.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D_RC4226A.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D_RC3473.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(1)_场景图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(1)_场景图.jpg",
+          "ts": 1795482763,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的商品真实使用场景图。以输入的银灰色 GX10 斜侧面白底图为唯一商品素材，抠取原物并合成在画面左前景的现代碳纤维桌面工作台上（实际宽约 540–580 px，保持机身角度、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字 100% 锐利清晰）。遥控器顶部连接一根带科技蓝光效的 USB-C 数据线，通向画面右后方的一台游戏笔记本电脑，电脑屏幕上正显示第一人称 FPV 穿越机飞行模拟器画面。背景为暗调科技感桌面环境。顶部居中排白色粗体主标题「SINGLE USB TYPE-C PORT」（46–52 px），其下排浅蓝与白色副标题「Data Transmission  |  Charging  |  FPV Simulator」（24–26 px）。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(2)_卖点_主控芯片.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(3)_卖点_触控彩屏.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(4)_卖点_人体工学握把.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(5)_卖点_双18650电池仓.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(6)_卖点_霍尔摇杆.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(6)_卖点_霍尔摇杆.jpg",
+          "ts": 1795429788,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 X4-V2 霍尔摇杆特写卖点图。以输入的银灰色 GX10 摇杆高清微距特写图为唯一商品素材，保持摇杆金属齿冠、轴承结构、T1/T2 与 MDL 按键刻字 100% 锐利清晰。背景边缘做深空灰暗角过渡，摇杆外圈加柔和的科技蓝光晕。顶部左上对齐排 60–68 px 白色粗体主标题「X4-V2 Hall Gimbal」，其下排 26–28 px 浅蓝副标题「High-Precision Hall Sensor | Smooth & Precise Control」。底部横向并排三个深色圆角卖点标签（22–24 px 白色半粗体）：「Quad Precision Bearing」、「M3 Stick End Thread」、「Front Travel Adjustment」。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(7)_卖点_电池仓细节.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(7)_卖点_电池仓细节.jpg",
+          "ts": 1795482784,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的内部结构与可拆卸电池仓微距卖点图。以输入的银灰色 GX10 电池仓内部高清微距特写图为唯一商品素材，保持内部的 2pin 白色电源接口、正负极弹簧片、散热开孔以及 R-L/G/T 机身刻字 100% 锐利清晰。顶部左对齐排 46–52 px 深石墨灰粗体主标题「Modular Battery Bay & Easy Adjustment」，其下排 24–26 px 深灰副标题「Supports 2 × 18650 Li-ion Batteries | Tool-Free Stick Mode & Tension Access」。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(8)_参数表.jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(8)_参数表.jpg",
+          "ts": 1795482803,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的英文产品规格参数表图。背景为干净的纯白色（#FFFFFF）。\n\n顶部居中排主标题「SPECIFICATIONS」，用 48–54 px 蓝灰色（#7A8299）无衬线粗体。\n\n标题下方居中排版一张双列规格表（表宽约 880 px），每行之间用 1 px 浅灰水平细线分隔。左列占宽 38% 用 18–20 px 纯黑粗体左对齐，右列占宽 62% 用 18–20 px 深灰常规体左对齐，按顺序原样逐行排版以下参数：\nItem : GX10 Radio\nColor : Grey / Transparent Charcoal\nDimensions : 180 × 165 × 83 mm\nWeight : 456g (excluding batteries)\nFrequency Range : 2.4GHz ISM\nInternal RF : ELRS 2.4GHz\nSupported Protocols : Express-LRS\nFirmware : EdgeTX (requires 2.12.0 or later)\nInternal RF Firmware : ExpressLRS 3.6.3\nCooling Fan : Yes (Built-in fan + aluminum heat sink)\nBuilt-in Flash : 512MB (supports TF card up to 32GB FAT32)\nChannels : Up to 16 channels (receiver dependent)\nDisplay : 2.8-inch IPS Touchscreen 320 × 240 Resolution\nBuilt-in Microphone : Yes\nBuilt-in Motion Sensor : Yes (SC7U22 Gyroscope)\nOperating Voltage : 6.6 - 8.4V DC\nBattery Support : 2 × 3.7V 18650 Li-ion batteries (not included)\nConnectivity : USB-C\nGimbal : X4-V2 Hall Sensor Gimbals (M3 Stick Thread)\nModule Bay : Compatible with Nano module bay\nUpgrade Method : USB-C Online / UF2 Offline\n\n所有英文与数字原样精准排版，字迹清晰锐利，严禁出现中文或多余字符。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "750X1000.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/750X1000.jpg",
+          "ts": 1795482825,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 750 × 1000 px、3:4 竖版的纯白底全色系商品合集广告图。以输入的两张正面白底图（银灰色款与半透明黑款）为唯一商品素材，抠取原物并合成在纯白色背景（#FFFFFF）上。\n\n画面分为上下两半：上半部居中放置半透明黑款 GX10 正面图，下半部居中放置银灰色款 GX10 正面图；每台遥控器实际宽约 620–650 px，完整显示金属拨杆和握把，严格保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、按键和机身刻字清晰。\n\n全图严禁添加任何文字、LOGO、边框或阴影杂物。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(9)_结构图_正面.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(9)_结构图_正面.jpg",
+          "ts": 1795429863,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GX10 正面按键结构说明图（BUTTON LAYOUT）。背景为纯白色（#FFFFFF），顶部居中排 48–54 px 深蓝灰粗体标题「BUTTON LAYOUT」。画面中央放置输入的银灰色 GX10 正面图（实际宽约 520 px，保持屏幕、双摇杆、金属拨杆、按键和刻字清晰），从各个部件向左右两侧引出水平垂直折线箭头，在左右两侧空白处用 18–20 px 纯黑无衬线字体整齐排列英文部件名称：\n左侧从上到下依次标注：SB 3-Position Switch、SE 3-Position Switch、Speaker、Left Hall Gimbal、T3/T4 Digital Trims、SYS Button、RTN (Return) Button、PAGE> / PAGE< Buttons；\n顶部中央指向屏幕标注：2.8\" IPS Touchscreen (320×240)；\n底部中央指向6颗圆键标注：1-6 Programmable RGB Buttons；\n右侧从上到下依次标注：SC 3-Position Switch、SF 3-Position Switch、Lanyard Loop、Right Hall Gimbal、T1/T2 Digital Trims、Power Button、MDL Button、Metal Scroll Wheel、TELE Button。所有引线工整不交叉，严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(10)_结构图_背面.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(10)_结构图_背面.jpg",
+          "ts": 1795482911,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GX10 背面接口与结构说明图。背景为纯白色（#FFFFFF），顶部居中排 48–54 px 深蓝灰粗体标题「REAR & PORT LAYOUT」。画面中央放置输入的银灰色 GX10 背面图（实际宽约 520 px，保持顶部天线、肩部旋钮、中央模块舱与两侧防滑胶皮握把清晰），从各个部位向四周引出黑色折线箭头并用 18–20 px 纯黑字体标注英文名称：\n顶部指向折叠天线：Foldable 2.4GHz Antenna；\n左侧从上到下依次标注：S2 Scroll Dial、DSC Trainer Port、H Button、Cooling Air Vents、Ergonomic Anti-Slip Rubber Grip (18650 Battery Bay Inside)；\n右侧从上到下依次标注：USB-C Port (Charging / Data / Simulator)、S1 Scroll Dial、G Button、External Nano Module Bay；\n底部中央加一个醒目的红框白底长条提示框，内部排 26–28 px 纯黑粗体「BATTERIES NOT INCLUDED」。严禁出现中文。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "详情图(11)_手持实拍对比图.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/详情图(11)_手持实拍对比图.jpg",
+          "ts": 1795482934,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 1000 × 1000 px、1:1 方版的手持实拍对比图。以输入的银灰色 GX10 正面白底图为唯一商品素材，展示一名成年飞手双手自然握持这台银灰色 GX10 遥控器的近景视角（双手拇指自然放在左右霍尔摇杆上，严格按照 180 × 165 mm 的真实紧凑手柄尺寸比例呈现，保持机身按键、屏幕与刻字 100% 锐利清晰）。背景为柔和虚化的户外飞行草地，光线自然真实，直观体现产品的紧凑体积与人体工学握持手感。全图无促销文字。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A俄文1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A俄文2.jpg",
+          "ts": 1795482957,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 900 × 1200 px、3:4 竖版的 Ozon 商品主图。以输入的银灰色 GX10 斜侧面白底图为唯一商品素材，抠取原物并合成，保持原图立体角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字。\n\n背景用深海军蓝到暗石板蓝的科技感哑光渐变，商品后方加柔和的冰蓝背光光晕，底部加自然接触阴影。\n\n顶部通栏居中排「RADIOMASTER」，字号约 28 px。主标题「GX10 Radio」用 76–84 px 白色粗体。其下用 24–26 px 白色字居中排版，按三行显示：\nВстроенный сенсорный IPS-экран 2,8″\nПоддержка EdgeTX и слот для карты TF\nПодключение внешнего ВЧ-модуля\n\n标题区下方划分为左 72% 和右 28%。左侧放置斜侧面商品主体，实际宽约 580–610 px，完整显示拨杆和握把。右侧纵向等距排列五组圆角胶囊卖点框（深蓝半透明底配浅蓝细边框，24–26 px 白色半粗体）：\n16CH\nELRS\n2,8\" IPS сенсорный экран\nX4-V2 Hall\nFCC\n\n俄语、型号和版本原样排版。底部延续背景，留出净空。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661A俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661A俄文3.jpg",
+          "ts": 1795482978,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 900 × 1200 px、3:4 竖版的 Ozon 商品主图。以输入的银灰色 GX10 正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字。\n\n背景用深炭灰到午夜蓝的极简渐变，商品背后有柔和的科技蓝环形光晕，底部加轻柔接触阴影。\n\n顶部通栏居中排「RADIOMASTER」，字号约 28 px。主标题「GX10 Radio」用 76–84 px 白色粗体。其下用 24–26 px 白色字居中排版，按三行显示：\nВстроенный сенсорный IPS-экран 2,8″\nПоддержка EdgeTX и слот для карты TF\nПодключение внешнего ВЧ-модуля\n\n画面中部居中放置商品主体，实际宽约 640–670 px，完整展示所有按键与刻字。商品下方横向等距并排三枚醒目的深蓝底浅蓝边圆角卖点铭牌（字号 28–30 px 白色粗体）：\nELRS   |   X4-V2 Hall   |   FCC\n\n俄语、型号和版本原样排版。底部延续背景，留出净空。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B俄文1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C俄文1.jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661C俄文1.jpg",
+          "ts": 1795429887,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 900 × 1200 px、3:4 竖版的 Ozon 商品主图。以输入的半透明黑 GX10 正面白底图为唯一商品素材，抠取原物并合成，保持原图正面角度、外壳颜色、黑色屏幕、双摇杆、金属拨杆、按键和机身刻字。\n\n背景用深石墨灰到深蓝灰的哑光渐变。商品背后加柔和的冷蓝光晕，右栏用均匀的深色，底部加轻柔接触阴影。\n\n顶部通栏居中排「RADIOMASTER」，字号约 28 px。主标题「GX10 Radio」用 76–84 px 白色粗体。其下用 24–26 px 白色字居中排版，按三行显示：\nВстроенный сенсорный IPS-экран 2,8″\nПоддержка EdgeTX и слот для карты TF\nПодключение внешнего ВЧ-модуля\n\n标题区下方划分为左 75% 和右 25%。左侧商品实际宽约 605–630 px，完整显示拨杆和握把，垂直位置与右栏视觉居中。右侧纵向等距排列四组卖点，使用约 26–28 px 白色半粗体和细浅蓝分隔线：\n16CH\nELRS\nX4-V2 Hall\nFCC\n\n俄语、型号和版本原样排版。底部延续背景，留出净空。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661C俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D俄文1.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D俄文2.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D俄文3.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B_RC4226A俄文4.jpg": {
+      "review_status": "review",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 1,
+      "versions": [
+        {
+          "ver": 1,
+          "path": "e:/Projects/Raw_Image_Workspace/auto_image_gen/outputs/RC4661/RC4661B_RC4226A俄文4.jpg",
+          "ts": 1795483006,
+          "elapsed": 21.4,
+          "provider_id": "qiuqiutoken",
+          "model_name": "gpt-image-2",
+          "prompt": "制作一张 900 × 1200 px、3:4 竖版的 GX10 俄语包裹图。背景用干净的暖白或浅灰，标题「Комплектация GX10」顶部居中，用 56–64 px 深石墨灰粗体。\n\n画面上部使用上传的银灰色 GX10 标准配件白底合照与两节 18650 电池合照作为合成素材，保持原有商品、配件的外观和可辨识度。银灰色 GX10 和灰色收纳包是最大主体，右侧展示蓝色摇杆保护架、备用天线、USB‑C 线、屏幕保护膜、两把工具、两类胶塞、贴纸、说明书和清单卡。沿用照片中真实配件和数量，保持小配件边缘清晰。\n\n配件区下方留出足够位置，用两栏排俄语清单。正文字号 19–22 px，长条目自然换行；「2 ×」和「7 ×」对应两个不同的胶塞组。\n\n左栏：\n1 × Пульт GX10\n1 × Сумка для GX10\n1 × Защита для стиков GX10\n1 × Запасная антенна\n1 × Ключ для снятия антенны\n1 × Кабель USB‑C\n1 × Защитная плёнка для экрана\n\n右栏：\n1 × Шестигранный ключ 1,5 мм\n2 × Мягкие заглушки для колёсиков\n7 × Мягкие заглушки для кнопок\n1 × Набор наклеек RadioMaster\n1 × Инструкция GX10\n1 × Карта комплектации\n1 × Батарея 18650 (2 шт.)\n\n这张图对应银灰色 GX10 含 18650 电池套装，在配件区醒目位置水平正向展示输入的两节 18650 电池（保持电池文字正向清晰）。"
+        }
+      ],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661B_RC3473俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D_RC4226A俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    },
+    "RC4661D_RC3473俄文4.jpg": {
+      "review_status": "approved",
+      "custom_prompt": null,
+      "custom_refs": null,
+      "active_version": 0,
+      "versions": [],
+      "elapsed_seconds": null,
+      "provider_id": "qiuqiutoken",
+      "model_name": "gpt-image-2"
+    }
+  }
+}

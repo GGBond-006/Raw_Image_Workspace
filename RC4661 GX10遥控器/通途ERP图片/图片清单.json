@@ -1,0 +1,67 @@
+{
+  "sku": "RC4661",
+  "source": "Tongtool ERP via python -m tongtool_sync preview",
+  "images": [
+    {
+      "url": "https://erp109.tongtool.com/file/041278/product/7901041278202611030000947899/1794302324917.jpg",
+      "skus": [
+        "RC4661A"
+      ],
+      "gallery_order": 1,
+      "image_id": "7901041278202611100000953963",
+      "primary": false,
+      "filename": "RC4661A.jpg",
+      "bytes": 89592,
+      "width": 500,
+      "height": 500,
+      "format": "JPEG",
+      "sha256": "7f614dddacbb28ba8839b8d26e390987ad1e75872ba1e15e152b53a444889d8c"
+    },
+    {
+      "url": "https://erp109.tongtool.com/file/041278/product/7901041278202611030000947899/1794302324950.jpg",
+      "skus": [
+        "RC4661B"
+      ],
+      "gallery_order": 2,
+      "image_id": "7901041278202611100000953964",
+      "primary": false,
+      "filename": "RC4661B.jpg",
+      "bytes": 88935,
+      "width": 500,
+      "height": 500,
+      "format": "JPEG",
+      "sha256": "b5a1bce688dbeb039ed82b6acfd4554df0f064d17105a3046f1b023cdff4cba8"
+    },
+    {
+      "url": "https://erp109.tongtool.com/file/041278/product/7901041278202611030000947899/1794302324960.jpg",
+      "skus": [
+        "RC4661C"
+      ],
+      "gallery_order": 3,
+      "image_id": "7901041278202611100000953965",
+      "primary": false,
+      "filename": "RC4661C.jpg",
+      "bytes": 90536,
+      "width": 500,
+      "height": 500,
+      "format": "JPEG",
+      "sha256": "aea2b5f897f09d4aa9f6e5084eba424a8bd981131f1e28c1e5ff546af00eab57"
+    },
+    {
+      "url": "https://erp109.tongtool.com/file/041278/product/7901041278202611030000947899/1794302324973.jpg",
+      "skus": [
+        "RC4661D"
+      ],
+      "gallery_order": 4,
+      "image_id": "7901041278202611100000953966",
+      "primary": true,
+      "filename": "RC4661D_主图.jpg",
+      "bytes": 89892,
+      "width": 500,
+      "height": 500,
+      "format": "JPEG",
+      "sha256": "9f9e39f53bf19ca48bff83106d77b65ceb0f64e6972aed74444cfa1bd9019bb7"
+    }
+  ],
+  "image_count": 4
+}

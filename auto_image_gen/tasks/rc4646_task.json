@@ -1,0 +1,301 @@
+{
+  "task_id": "TASK_RC4646_F08S",
+  "passthrough_clean_white_sub_images": true,
+  "product_meta": {
+    "spu_code": "RC4646",
+    "display_name_cn": "F08S Bell-206 1/27 GPS 无副翼遥控直升机",
+    "brand_name": "YXZNRC",
+    "category": "RC_Helicopter",
+    "category_cn": "航模遥控直升机",
+    "show_brand_logo_on_main": true,
+    "blacklisted_terms": [
+      "32:1",
+      "1/32",
+      "8通道",
+      "8CH",
+      "GX10"
+    ]
+  },
+  "generation_flags": {
+    "is_pre_listing_mode": false,
+    "generate_structure_diagram": true,
+    "generate_handheld_comparison": true,
+    "generate_russian_suite": true
+  },
+  "color_variants": [
+    {
+      "color_id": "RED",
+      "color_name_cn": "红白消防涂装",
+      "color_name_en": "Red & White Fire Rescue",
+      "swatch": "#B91C1C",
+      "views": {
+        "front_png": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/1_正面_front.jpg",
+        "angled_png": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/3_斜侧_angled.jpg",
+        "left_png": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/4_左侧_left.jpg",
+        "right_png": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/5_右侧_right.jpg"
+      }
+    }
+  ],
+  "base_skus": [
+    {
+      "sku_code": "RC4646A",
+      "color_id": "RED",
+      "version_badge": "RTF GPS"
+    }
+  ],
+  "bundled_packages": [
+    {
+      "package_id": "STD_1BAT",
+      "accessory_sku": null,
+      "accessory_title_en": null,
+      "accessory_cutout_png": null,
+      "append_ru_item": null
+    },
+    {
+      "package_id": "BAT_2X",
+      "accessory_sku": "RC3670-DC",
+      "accessory_title_en": "2 Batteries Version (+1× 7.4V 1200mAh Li-Po)",
+      "accessory_cutout_png": "E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC3670-DC.png",
+      "append_ru_item": "+ 1 × Доп. умный аккумулятор (всего 2 шт.)"
+    },
+    {
+      "package_id": "BAT_3X",
+      "accessory_sku": "RC3670-DCx2",
+      "accessory_title_en": "3 Batteries Version (+2× 7.4V 1200mAh Li-Po)",
+      "accessory_cutout_png": "E:/Projects/Raw_Image_Workspace/auto_image_gen/assets/shared_skus/RC3670-DC.png",
+      "append_ru_item": "+ 2 × Доп. умных аккумулятора (всего 3 шт.)"
+    }
+  ],
+  "copywriting_en": {
+    "main_title": "F08S Bell-206 Helicopter",
+    "candidate_titles": [
+      "F08S Bell-206 Helicopter",
+      "F08S 6CH GPS Helicopter",
+      "YXZNRC F08S Bell-206 1/27"
+    ],
+    "core_selling_points": [
+      "1/27 Scale",
+      "GPS Positioning",
+      "Brushless Motor",
+      "6CH · 6-Axis Gyro",
+      "13min Flight Time"
+    ],
+    "package_includes": [
+      {
+        "qty": 1,
+        "name_en": "F08S RC Helicopter"
+      },
+      {
+        "qty": 1,
+        "name_en": "6CH 2.4G Remote Controller"
+      },
+      {
+        "qty": 1,
+        "name_en": "7.4V 1200mAh Smart Li-Po Battery"
+      },
+      {
+        "qty": 1,
+        "name_en": "USB Charging Cable"
+      },
+      {
+        "qty": 2,
+        "name_en": "Main Blades"
+      },
+      {
+        "qty": 1,
+        "name_en": "Tail Blade"
+      },
+      {
+        "qty": 1,
+        "name_en": "Hex Wrench"
+      },
+      {
+        "qty": 1,
+        "name_en": "Screwdriver"
+      },
+      {
+        "qty": 1,
+        "name_en": "User Manual"
+      }
+    ],
+    "specifications": [
+      {
+        "key": "Model",
+        "value": "YXZNRC F08S (Bell-206 Scale RC Helicopter)"
+      },
+      {
+        "key": "Scale",
+        "value": "1/27"
+      },
+      {
+        "key": "Main Rotor Diameter",
+        "value": "375 mm"
+      },
+      {
+        "key": "Fuselage Length",
+        "value": "390 mm"
+      },
+      {
+        "key": "Height",
+        "value": "122 mm"
+      },
+      {
+        "key": "Weight",
+        "value": "228g (Aircraft)"
+      },
+      {
+        "key": "Control Mode",
+        "value": "2.4GHz 6-Channel (Two-Way Telemetry)"
+      },
+      {
+        "key": "Control Distance",
+        "value": "> 120 m"
+      },
+      {
+        "key": "Main Motor",
+        "value": "2511 1200KV Brushless Motor"
+      },
+      {
+        "key": "Tail Motor",
+        "value": "1204 5500KV Brushless Motor"
+      },
+      {
+        "key": "Servo",
+        "value": "3 × 4.3g Metal Gear Servo"
+      },
+      {
+        "key": "Positioning System",
+        "value": "GPS + Compass + Lidar + Optical Flow + Barometer"
+      },
+      {
+        "key": "Operating Voltage",
+        "value": "7.4V 1200mAh 25C Smart Li-Po Battery"
+      },
+      {
+        "key": "Flight Time",
+        "value": "11 - 13 Minutes"
+      },
+      {
+        "key": "Charging Time",
+        "value": "About 60 Minutes (USB Type-C)"
+      }
+    ]
+  },
+  "copywriting_ru": {
+    "title": "F08S Bell-206 Вертолет",
+    "subtitle_lines": [
+      "Масштаб 1/27 · GPS, лидар и оптический поток",
+      "Бесколлекторные двигатели · 6-осевой гироскоп · 6CH",
+      "Время полёта до 13 минут · Возврат домой"
+    ],
+    "badges_1": [
+      "GPS",
+      "6CH",
+      "1/27",
+      "13min"
+    ],
+    "badges_2": [
+      "Бесколлекторный",
+      "6-осевой гироскоп",
+      "6CH",
+      "GPS",
+      "1/27"
+    ],
+    "badges_3": [
+      "GPS",
+      "1/27",
+      "6-осевой гироскоп"
+    ],
+    "package_title": "Комплектация F08S",
+    "package_includes": [
+      "1 × Вертолёт F08S",
+      "1 × Пульт ДУ 6CH",
+      "1 × Инструкция",
+      "1 × USB-кабель для зарядки",
+      "2 × Основные лопасти",
+      "1 × Хвостовая лопасть",
+      "1 × Умный аккумулятор 7.4V 1200mAh",
+      "1 × Шестигранный ключ",
+      "1 × Отвёртка"
+    ]
+  },
+  "reference_assets": {
+    "hero_main_view": "angled_png",
+    "clean_package_photo_ref": "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/7_配件合照_package.jpg",
+    "spec_output_filename": "详情图(8)_参数表.jpg",
+    "scene_configs": [
+      {
+        "output_filename": "详情图(1)_场景图_户外飞行.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/alt_flying_left45.jpg",
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/scene_gps_flight.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的户外真实飞行场景图。以输入的红白消防涂装 YXZNRC F08S Bell-206 遥控直升机白底图为唯一机型外观来源（保持 N306FD 机身编号、6 号消防涂装、顶部 GPS 蘑菇头与旋翼细节 100% 清晰不变形），参考图2的户外飞行构图，将直升机置于晴朗开阔的户外山谷草地上空悬停飞行，下方实拍飞手手持配套 6 通道带彩屏遥控器操控。顶部居中排白色粗体英文主标题「1/27 SCALE BELL-206 GPS RC HELICOPTER」（42–46 px，严格写 1/27，严禁出现 32:1 或 1/32），其下排浅蓝/白色卖点标签「GPS Positioning  |  Optical Flow + Lidar  |  13min Flight Time」。画面真实自然，严禁出现中文。"
+      }
+    ],
+    "selling_point_configs": [
+      {
+        "output_filename": "详情图(2)_卖点_GPS智能返航.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/3_斜侧_angled.jpg",
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_gps_rth.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 GPS 智能定位与返航卖点图。以输入的红白消防涂装 F08S 直升机高清白底图为主体，结合图2的 GPS 轨迹科技感风格重构为 1:1 构图。顶部居中排白色粗体主标题「GPS SATELLITE POSITIONING」（48–54 px），其下排副标题「One-Key Return · Low Battery Return · Fail-Safe Return · Figure-8 Flight」（22–24 px）。底部横向排 4 枚简洁图标徽章：Low Battery RTH、Fail-Safe RTH、One-Key Return、Geofence。严禁出现中文或 32:1。"
+      },
+      {
+        "output_filename": "详情图(3)_卖点_光流激光雷达定高.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/5_右侧_right.jpg",
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_lidar_optflow.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的激光雷达与下视觉光流定高卖点图。参考图2布局并结合图1高清 F08S 机身重构为 1:1 方版，展示机腹下方发出柔和激光雷达测距与光流网格定位光束的效果，右下角保留机腹传感器放大特写圆框并标注「Lidar TOF + Optical Flow Sensor」。顶部排白色粗体主标题「LIDAR + OPTICAL FLOW ALTITUDE HOLD」（42–48 px），其下排副标题「Multi-Sensor Fusion for Rock-Solid Indoor & Outdoor Hovering」（22–24 px）。严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(4)_卖点_CNC旋翼头与双无刷动力.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/3_斜侧_angled.jpg",
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_cnc_motor.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的双无刷动力与高精度 CNC 旋翼头卖点图。参考图2构图并结合图1高清红白 F08S 直升机重构为 1:1 方版，右下角展示 2511 1200KV 主无刷电机与 1204 5500KV 锁尾无刷电机特写卡片。顶部排白色粗体主标题「DUAL BRUSHLESS POWER & CNC ROTOR HEAD」（40–46 px），其下排副标题「2511 1200KV Main Motor + 1204 5500KV Tail Motor · 3×4.3g Metal Gear Servos」（20–24 px）。严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(5)_卖点_智能锂电池.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_battery.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的智能模块化锂电池卖点图。以输入的 7.4V 1200mAh 25C 白色智能电池渲染图为素材重构为 1:1 科技感暗色背景方版，保持电池表面 7.4V 1200mAh 25C 8.88Wh 标签清晰可读。顶部居中排白色粗体主标题「7.4V 1200mAh 25C SMART LI-PO BATTERY」（40–46 px），其下排副标题「11–13 Min Flight Time  |  500+ Charge Cycles  |  Type-C Charging」（22–24 px）。严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(6)_卖点_一键倒飞与智能航线.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_inverted.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的一键倒飞与智能飞行模式功能图。以输入的倒飞轨迹与遥控器操作示意图为参考重构为高清晰 1:1 深色科技版式，清晰展示直升机翻转悬停轨迹与 6CH 遥控器 MODE 键操作示意。顶部居中排白色粗体主标题「ONE-KEY INVERTED & SMART FLIGHT MODES」（40–44 px），副标题「GPS Stabilization · One-Key Inverted Flight · Figure-8 & Circle Route」（20–24 px）。严禁出现中文。"
+      }
+    ],
+    "structure_configs": [
+      {
+        "output_filename": "详情图(9)_结构图_机身核心结构.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/4_左侧_left.jpg",
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/sp_4parts.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 F08S 直升机核心结构标注图（STRUCTURE OVERVIEW）。背景为纯白色（#FFFFFF），顶部居中排 48–52 px 深蓝灰粗体标题「F08S STRUCTURE OVERVIEW」。画面中央放置输入的红白消防涂装 F08S 正左侧面白底全貌图（宽约 620 px，保持 N306FD 与 6 号涂装清晰），参考图2的四大核心硬件卖点，用工整黑色折线引出并标注英文部件名：CNC Flybarless Rotor Head、Nylon-Carbon Fiber Main Blades、GPS & Compass Module、2511 1200KV Brushless Main Motor、3×4.3g Metal Gear Servos、Lidar & Optical Flow Sensor、1204 5500KV Brushless Tail Motor、7.4V 1200mAh Smart Battery Bay。所有引线清晰不交叉，严禁出现中文。"
+      },
+      {
+        "output_filename": "详情图(10)_结构图_遥控器与遥测屏幕.jpg",
+        "reference_images": [
+          "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/.raw_refs/struct_tx_lcd.jpg"
+        ],
+        "prompt": "制作一张 1000 × 1000 px、1:1 方版的 6CH 2.4G 双向遥测遥控器按键与屏幕说明图（6CH TELEMETRY TRANSMITTER）。参考输入的英文遥控器与 LCD 屏幕说明图重构为清晰工整的 1:1 白底/浅灰底方版。上部展示遥控器正面及各开关按键清晰英文引线标注（GPS/Manual Mode Switch、One-Key Return、One-Key Landing、Figure-8/Circle Route、Power Switch、Throttle/Rudder Stick、Aileron/Elevator Stick），下部展示高清 LCD 遥测屏幕图标说明（Battery Level、Flight Speed、Altitude、Distance、GPS Satellites）。字体锐利易读，严禁出现中文或 8CH 字样。"
+      }
+    ],
+    "handheld_config": {
+      "output_filename": "详情图(11)_手持实拍对比图.jpg",
+      "reference_images": [
+        "E:/Projects/Raw_Image_Workspace/RC4646 F08S直升机/红白消防涂装/3_斜侧_angled.jpg"
+      ],
+      "prompt": "制作一张 1000 × 1000 px、1:1 方版的实拍体积对比手持图。以输入的红白消防涂装 YXZNRC F08S Bell-206 静态展桨白底图为唯一机型外观来源（保持 N306FD 编号、6 号消防涂装、CNC 旋翼头与白色滑撬脚架 100% 还原），展示一名成年航模玩家在户外阳光草地旁双手自然托举或单手托持起落架展示这台 1/27 比例遥控直升机（严格符合 390mm 机身长、375mm 旋翼直径的真实比例，直观体现机身精致大小）。背景为柔和虚化的户外公园飞行场，自然光影真实，全图无任何文字与水印。"
+    }
+  }
+}

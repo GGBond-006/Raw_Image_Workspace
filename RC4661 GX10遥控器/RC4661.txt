@@ -1,0 +1,97 @@
+RadioMaster GX10 RC Transmitter 2.4G ELRS Radio Controller with X4-V2 Hall Gimbal 2.8 Inch IPS Touch Screen Support EdgeTX 
+
+Features:
+1. Adopts high-performance STM32 H7 main chip, paired with standard X4-V2 Hall sensor joystick for precise and smooth control. 
+
+2. Built-in 2.4GHz ELRS RF module, delivers stable signal connection and low latency for RC model control.
+3. Equipped with 2.8-inch IPS touch screen (320¡Á240 resolution), plus 6 fully programmable RGB keys for quick function access. 
+
+4. Built-in SC7U22 gyroscope, built-in cooling fan and aluminum heat sink for reliable long-time operation.
+5. Comes with 512MB onboard memory, supports TF card expansion up to 32GB (FAT32 format). 
+
+6. Compatible with EdgeTX firmware (V2.12.0+), supports USB-C online upgrade and UF2 offline upgrade. 
+7. M3 thread for replaceable joystick heads, Nano module bay reserved to install extra external RF modules.
+
+Description:
+This RadioMaster GX10 RC controller is equipped with STM32 H7 chip, X4-V2 Hall joystick, built-in 2.4GHz ELRS module, 2.8-inch IPS touch screen, programmable RGB keys, gyroscope and microphone, supporting EdgeTX firmware, TF card expansion and module expansion.
+
+This is the upgraded version of ZORRO, featuring a top touch color screen, a battery compartment upgraded from 18350 to 18650 for extended runtime, and equipped with LR1121 chip and H7 platform processor for faster response.
+
+Specifications:
+Model: GX10 
+
+Main Chip: STM32 H7, RF chip LR1121 
+
+Display: 2.8" IPS touch screen, 320¡Á240 
+
+Gimbal: X4-V2 Hall sensor joystick 
+
+RF Module: Built-in 2.4GHz ELRS 
+
+Battery: 2 ¡Á 3.7V 18650 (not included) 
+
+Working Voltage: 6.6¨C8.4V DC 
+
+Max Current: 850mA @8.4V 
+
+Storage: 512MB built-in storage, TF card slot (max 32GB, FAT32, card not included) 
+
+Firmware: EdgeTX ¡Ý2.12.0, ELRS 3.6.3 
+
+Gyroscope: Built-in(SC7U22) 
+
+Cooling: Built-in fan + aluminum heat sink 
+
+Keys: 6 programmable RGB keys 
+
+Interface: USB?C 
+
+Gimbal thread: M3, replaceable stick heads 
+
+Module bay: Compatible with Nano module bay 
+
+Upgrade: USB?C online & UF2 offline upgrade 
+
+Dimension: 180 ¡Á 165 ¡Á 83 mm 
+
+Weight: 456g (without battery)
+
+Package contents:
+1 ¡Á GX10 Transmitter
+
+1 ¡Á GX10 Carry Bag
+1 ¡Á GX10 Protective Cover
+1 ¡Á Spare Antenna
+1 ¡Á Antenna Removal Wrench
+
+1 ¡Á USB?C Cable
+
+1 ¡Á Screen Protector Film
+
+1 ¡Á 1.5mm Hex Wrench
+
+2 ¡Á Wheel Rubber Plugs
+
+7 ¡Á Button Rubber Plugs
+
+1 ¡Á RadioMaster Sticker
+
+1 ¡Á GX10 User Manual
+
+1 ¡Á Packing List Card
+2 ¡Á 3200mAh battery(Optional)
+
+Note:
+Only the above package content, other products are not included.
+1.Due to the difference between different monitors,the picture may not reflect the actual color of the item. We guarantee the style is the same as shown in the pictures.
+2.Due to the manual measurement and different measurement methods, please allow 1-3mm deviation.Thanks!
+
+Before purchase:
+1.All the goods are ready stock, we will arrange the shipment at once if we receive the order.
+2.Please read the item description, if you have any question, do not hesitate to contact us.
+3.No warranty,if you receive a defect item,please contact us at once with item picture.
+4.Use the vouchers for more saving.
+
+After purchase:
+1.If you are satisfied,please express your use feeling.
+2.Please contact us before you are going to give us bad review. We are helpful and will solve the problems. If you receive a defect item,please contact us at once with item picture or video.

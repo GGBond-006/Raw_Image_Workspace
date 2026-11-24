@@ -1,0 +1,45 @@
+SPU: RC4646 | Main SKU: RC4646A | Bundled Battery SKU: RC3670-DC (双电/三电套餐)
+Brand LOGO: YXZNRC
+Model: F08S Bell-206 1/27 6CH Flybarless Brushless GPS Optical Flow Positioning RTF RC Helicopter
+Note: 需求表明确要求比例统一为 1/27（严禁沿用原厂图中的 32:1 / 1/32），通道数为 6CH（严禁写 8CH）。
+槽位说明：原厂白底包仅含正机头、45°斜侧、左侧面、右侧面与配件全家福，未提供正背面（尾部）与局部微距白底特写，相关槽位严格留空不凑数。
+
+Title:
+YXZNRC F08S RC Helicopter Bell-206 1/27 6CH Flybarless Brushless GPS Optical Flow Positioning RTF 2.4G Remote Control Aircraft Model
+
+Features:
+1. 1:27 Scale Helicopter: 1/27 scaled replica of classic Bell-206 helicopter, highly-detailed appearance with cool decorative lights.
+2. Flybarless Structure & Crash-Resistant Build: Dual-shaft co-drive motors with electronic stabilization. Nylon-carbon fiber impact-proof blades and flexible crash-resistant fuselage.
+3. Multi-Sensor Positioning & Altitude Hold: Lidar + downward visual optical flow system combined with GPS, compass and barometer for indoor & outdoor flight.
+4. Dual Brushless Power: 2511-1200KV main motor + 1204-5500KV tail-lock brushless motor. 3x4.3g metal-gear servos deliver high torque and wind resistance (level 4-5).
+5. Smart Flight Functions: GPS & manual stabilization modes, one-key return-to-home (low-power / fail-safe), one-key landing, geofence, preset figure-8 & circular flight routes.
+6. 6CH 2.4G Telemetry Remote Controller: 6-channel high-precision transmitter, 2.4GHz two-way communication, LCD screen displaying battery, speed, altitude, distance and GPS satellites.
+7. 7.4V 1200mAh 25C Smart Li-Po Battery: 11-13 mins flight time, 500+ cycles, Type-C charging port, over-charge & over-discharge protection.
+
+Specifications:
+Model: F08S (Bell-206 Simulation RC Helicopter)
+Scale: 1:27
+Main Rotor Diameter: 375mm
+Fuselage Length: 390mm
+Height: 122mm
+Weight: 228g (Aircraft)
+Control Mode: 2.4GHz 6-Channel
+Remote Control Distance: >120m
+Main Motor: 2511-1200KV Brushless Motor
+Tail Motor: 1204-5500KV Brushless Motor
+Servo: 4.3g Metal Gear Servo x3
+Positioning System: GPS + Compass + Lidar + Downward Visual Optical Flow + Barometer
+Operating Voltage: 7.4V 1200mAh 25C Smart Li-Po Battery
+Flight Time: 11-13 Minutes
+Charging Time: About 60 Minutes
+
+Package Contents (Standard 1 Battery):
+1 x F08S RC Helicopter
+1 x Remote Controller
+1 x User Manual
+1 x USB Charging Cable
+2 x Main Blades
+1 x Tail Blade
+1 x Smart Li-Po Battery (Optional 2x / 3x Battery Bundles via RC3670-DC)
+1 x Hex Wrench
+1 x Screwdriver
